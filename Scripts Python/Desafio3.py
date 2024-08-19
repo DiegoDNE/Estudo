@@ -1,0 +1,10 @@
+wd = input('Diginte algo:')
+
+print(f'O tipo primitivo desse valor é {type(wd)}')
+print(f'Só tem espaços? {wd.isspace()}')
+print(f'É um número? {wd.isnumeric()}')
+print(f'É alfabético? {wd.isalpha()}')
+print(f'É alfanumérico? {wd.isalnum()}')
+print(f'Está em maiúsculas? {wd.isupper()}')
+print(f'Está em minúsculas? {wd.islower()}')
+print(f'Está capitalizado? {wd.istitle()}')
