@@ -8,7 +8,7 @@
 nome = input('Digite o nome completo: ')
 
 primeiro_nome = nome.split()[0]
-ultimo_nome = nome.split()[:9]
+ultimo_nome = nome.split()[-1]
 
 print('\n'+'-'*45)
 print('\nO primeiro nome é: {}'.format(primeiro_nome))
